@@ -1,6 +1,6 @@
 # Script for downloading and preparing necessary miRBase files
 miRBase_version="22.1"
-PYTHON="python3"
+PYTHON="python"
 
 mkdir -p miRBase
 cd miRBase
