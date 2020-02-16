@@ -1,5 +1,5 @@
 # PP_miRNA_arrays
-A post-processing algorithm for miRNA microarray data.
+A post-processing algorithm for miRNA microarray data, http://dx.doi.org/10.3390/ijms21041228.
 
 ## Introduction
 This repository contains a tool for post-processing miRNA microarray data. Namely, the program calculates score (float between 0 and 1) for each pre-miRNA—mature-miRNA pair based on median miRNA expression level, Spearman correlation between precursor and mature miRNA and MIMAT accession number. The closer score to 1 the more likely that miRNA is really expressed in considered samples.
